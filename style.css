@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#b0b1e4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden ;
+
+}
+
+.w-33-3{
+    width: 33.33%;
+    float: left;
+    padding:20px;
+  
+}
+.card-container{
+    padding:100px 0 0 ;
+
+}
+.card{
+    background-color: white;
+    position: relative;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0, 0.5) ;
+    height: 171px;
+    top: 140px;
+    transition: 0.5s ease-in-out;
+    transition-delay:0.2s;
+}
+ .card-img{
+    width:55%;
+    position: relative;
+    left:20%;
+    top:-77px;
+    box-shadow: 0px 3px 35px 0px rgba(0,0,0, 0.5);
+    height:139px;
+
+ }
+ .card-img img{
+    border-radius: 10px;
+
+    width: 100%;
+    height: auto;
+ }
+ .card-desc{
+    text-align: center;
+    padding: 24px;
+    position: relative;
+    top: -43px;
+    visibility: hidden;
+    opacity: o;
+    transition:o.5s ease-in-out;
+    transition-delay:0.5s;
+ }
+
+ .card-desc h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ .card-desc p{
+    font-size:11px;
+    text-align: left;
+ }
+ .card-desc a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 9px 38px;
+    border-radius: 9px;
+    font-size: 21px;
+    margin-top: 55px;
+    
+}
+.card:hover{
+    transition-delay:0s;
+    height: 430px;
+    top:0px;
+}
+.card:hover .card-desc{
+    transition-delay:0.5s;
+    visibility: visible;
+    opacity: 1;
+}
